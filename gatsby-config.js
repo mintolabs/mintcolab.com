@@ -93,11 +93,11 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `StoryHub - Personal Blog`,
-        short_name: `StoryHub`,
+        name: `MintColab - Business SaaS Solutions`,
+        short_name: `MintColab`,
         start_url: `/`,
         background_color: `#ffffff`,
-        theme_color: `#663399`,
+        theme_color: `#22b7b5`,
         display: `minimal-ui`,
         icon: `content/assets/favicon.png`,
       },

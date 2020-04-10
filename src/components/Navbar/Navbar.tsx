@@ -25,10 +25,10 @@ const MenuItems = [
     label: 'Home',
     url: '/',
   },
-  {
-    label: 'About',
-    url: '/about',
-  },
+  // {
+  //   label: 'About',
+  //   url: '/about',
+  // },
   {
     label: 'Contact',
     url: '/contact',
@@ -70,7 +70,7 @@ const Navbar: React.FunctionComponent<NavbarProps> = ({
             <img src={LogoImage} alt="logo" />
           </Link>
         </Logo>
-        {/* <MenuWrapper>
+        <MenuWrapper>
           <Menu items={MenuItems} />
         </MenuWrapper>
         <NavSearchButton
@@ -79,7 +79,7 @@ const Navbar: React.FunctionComponent<NavbarProps> = ({
           onClick={toggleHandle}
         >
           <IoIosSearch size="23px" />
-        </NavSearchButton> */}
+        </NavSearchButton>
       </NavbarWrapper>
 
       <NavSearchWrapper className={state.toggle === true ? 'expand' : ''}>

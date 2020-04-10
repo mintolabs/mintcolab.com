@@ -1,16 +1,16 @@
-import React from "react"
-import Layout from "../components/layout"
-import SEO from "../components/seo"
-import About from "../containers/About"
+import React from 'react'
+import Layout from '../components/layout'
+import SEO from '../components/seo'
+import About from '../containers/About'
 
 type AboutPageProps = {}
 
-const AboutPage: React.FunctionComponent<AboutPageProps> = props => {
+const AboutPage: React.FunctionComponent<AboutPageProps> = (props) => {
   return (
     <Layout>
       <SEO
         title="About Us"
-        description="StoryHub is a beautiful Gatsby Blog theme designed to showcase your work in style. Perfect for designers, artists, photographers and developers to use for their portfolio website."
+        description="MintColab is a business SaaS solutions provider. We help you save time on trivial tasks and focus on making revenue your unique value."
       />
 
       <About />
